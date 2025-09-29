@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    color: #FAFAFA;
+    position: fixed;
+    top: 0px;
+}
+
+.header-top {
+    height: 100px;
+    background-color: #251941;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.logo {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.header-top h1 {
+    height: 100px;
+    text-align: center;
+    align-self: center;
+    font-size: 88px;
+}
+
+.header-down {
+    height: 50px;
+    background-color: #25194F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-down h3 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.search-header input {
+    height: 34px;
+    width: 488px;
+    border-radius: 20px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #251941;
+}
+
+.search-header img {
+    position: relative;
+    top: 8px;
+    right: 40px;
+}
+
+main {
+    margin-top: 150px;
+    padding-inline: 150px;
+}
+
+/* ========== MAIN HOME ========== */
+main h2 {
+    font-size: 48px;
+}
+
+.container-home {
+    margin-top: 16px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+}
+
+.card {
+    justify-self: center;
+    width: 264px;
+    height: 366px;
+    box-shadow: 0px 0px 20px #00000025;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 222px;
+    height: 300px;
+}
+
+.card h4 {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+
+
+/* ========== FOOTER ========= */
+footer {
+    background-color: #251941;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 24px;
+}
