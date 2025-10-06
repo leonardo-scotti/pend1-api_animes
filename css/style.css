@@ -88,7 +88,7 @@ input:focus {
 }
 
 main {
-    margin-top: 150px;
+    margin: 150px 0px;
     padding-inline: 150px;
 }
 
@@ -124,7 +124,7 @@ main h2 {
 }
 
 .card h4 {
-    font-size: 32px;
+    font-size: 22px;
     font-weight: normal;
 }
 
